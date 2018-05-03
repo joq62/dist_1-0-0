@@ -1,0 +1,7 @@
+%% This is application specification files
+%% application.
+{application, "ppool"}.
+{description, "just for testing infra_master" }.
+{vsn, "1.0.4" }.
+{main_service,[{service,"ppool"},{vsn,"1.0.0"},{zone,[]},{board_functionality,[]},{numInstances,1},{geo_red,[]}]}.
+{needed_services,[]}.

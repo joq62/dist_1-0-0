@@ -1,0 +1,7 @@
+%% This is application specification files
+%% application.
+{application, myadd}.
+{description, "myadd to test appl_master manager " }.
+{vsn, "1.0.0" }.
+{main_service,[{service,"myadd"},{vsn,"3.0.0"},{zone,[]},{board_functionality,[]},{numInstances,100},{geo_red,[]}]}.
+{needed_services,[]}.

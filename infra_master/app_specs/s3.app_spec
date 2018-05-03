@@ -1,0 +1,7 @@
+%% This is application specification files
+%% application.
+{application, s3 }.
+{description, "just for testing infra_master" }.
+{vsn, "1.0.3" }.
+{main_service,[{service,"s3"},{vsn,"1.3.0"},{zone,[]},{board_functionality,[]},{numInstances,3},{geo_red,[]}]}.
+{needed_services,[{"s7.app_spec","1.0.7"}]}.

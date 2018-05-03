@@ -1,0 +1,7 @@
+%% This is application specification files
+%% application.
+{application, s4 }.
+{description, "just for testing infra_master" }.
+{vsn, "1.0.4" }.
+{main_service,[{service,"s4"},{vsn,"1.4.0"},{zone,[]},{board_functionality,[]},{numInstances,4},{geo_red,[zone_11,zone_12]}]}.
+{needed_services,[]}.
